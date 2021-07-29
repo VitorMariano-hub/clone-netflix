@@ -1,0 +1,124 @@
+@import 'modal.css';
+
+root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #141414;
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: #e50914;
+  font-family: 'Arial Black', Times;
+  font-size: 2.4rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*Filme Primeiro*/
+.filme-primeiro {
+  font-size: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url('../img/capa2.jpg');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-primeiro .descricao {
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.titulo {
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-primeiro .container {
+  width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.container .fatos {
+  margin: 5px 0 15px 0;
+}
+
+.container .fatos .certificado {
+  box-sizing: border-box;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.container .genero a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.container .genero a:hover {
+  color: #aaa;
+}
+
+.container .fatos .runtime {
+  padding-left: 10px;
+}
