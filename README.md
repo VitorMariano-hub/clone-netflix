@@ -11,3 +11,9 @@ Tecnologias utilizadas:
 
 ###### Através desse projeto coloquei em prática conceitos de responsividade de layout html com css,  semântica, boas praticas de estilização da pagina, utilização do plugin Owl Carousel 2 e javascript vannila js para inclusão de modal. :fire:
 
+![https://uploaddeimagens.com.br/imagens/RCFpKYI]()
+
+
+
+
+
